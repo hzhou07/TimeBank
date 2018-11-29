@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e9cec3"
+    tools:context="com.example.android.timeswap.TermsActivity">
+
+    <TextView
+        android:id="@+id/ToS"
+        android:layout_width="310dp"
+        android:layout_height="339dp"
+        android:text="This term can be modified randomly. Therefore, please read this term carefully before time trading. If you have any question about this term, you can send an email to timeswap@gamil.com
+1. You can only use our website do legal tasks
+2. You will not post any illegal tasks or tasks that is not true. If we have a reasonable reason to show that you posted any tasks illegal or not true, we have the right to cancel the task and provide government about your information
+3. You should provide email that really exist.
+4. If you failed to provide all the necessary information, there is a possibility that your task cannot be finished. This responsibility is at your own risk.
+5. You are responsible for all the information your provided."
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnReturn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/apricot"
+
+        android:text="RETURN"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ToS" />
+</android.support.constraint.ConstraintLayout>

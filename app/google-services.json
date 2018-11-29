@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "269728258881",
+    "firebase_url": "https://timeswap-8c7d5.firebaseio.com",
+    "project_id": "timeswap-8c7d5",
+    "storage_bucket": "timeswap-8c7d5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:269728258881:android:1388abf48419578b",
+        "android_client_info": {
+          "package_name": "com.example.android.timeswap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "269728258881-kkae81uhnslsep2j8u7ug41oo0rdt5h7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByoQhNDaXC37TEeKAvnLnGE4KOn9ph2qY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
